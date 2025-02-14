@@ -1,0 +1,47 @@
+.home .hero {
+    background: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    background: #e8491d;
+    color: #fff;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background: #bf3a15;
+  }
+  
+  .about {
+    background: #fff;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
