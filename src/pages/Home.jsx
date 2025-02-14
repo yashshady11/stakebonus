@@ -49,9 +49,9 @@ function Home() {
             variant="h2"
             component="h1"
             gutterBottom
-            sx={{ fontWeight: 'bold', textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}
+            sx={{ fontWeight: 'bold', textShadow: '2px 2px 4px rgba(1,0,0,0.8)' }}
           >
-            StakeBonus – The Ultimate Stake Bonus Calculator
+            StakeBonuses – The Ultimate Stake Bonus Calculator
           </Typography>
           <Typography
             variant="h5"
@@ -90,7 +90,7 @@ function Home() {
               to="/pre-monthly"
               sx={{ m: 1, textTransform: 'none' }}
             >
-              Calculate Stake Pre Month Bonus
+              Calculate Stake Pre Monthly Bonus
             </Button>
             <Button
               variant="contained"
@@ -100,7 +100,7 @@ function Home() {
               to="/post-monthly"
               sx={{ m: 1, textTransform: 'none' }}
             >
-              Calculate Stake Post Month Bonus
+              Calculate Stake Post Monthly Bonus
             </Button>
           </Box>
         </Box>
@@ -109,20 +109,20 @@ function Home() {
       {/* INTRODUCTION & OVERVIEW */}
       <Paper elevation={3} sx={{ p: 4, mb: 4 }}>
         <Typography variant="h4" component="h2" gutterBottom>
-          Welcome to StakeBonus – Your Trusted Stake VIP Bonus Calculator
+          Welcome to StakeBonuses – Your Trusted Stake VIP Bonus Calculator
         </Typography>
         <Typography variant="body1" paragraph>
-          StakeBonus is an innovative online tool designed exclusively for Stake VIP members. Our advanced calculator enables you to accurately estimate your bonus by considering your wagered amount, profit or loss, and VIP status. Whether you need to <strong>calculate stake bonus</strong>, <strong>calculate stake weekly bonus</strong>, <strong>calculate stake monthly bonus</strong>, <strong>calculate stake pre monthly bonus</strong>, or <strong>calculate stake post monthly bonus</strong>, our tool delivers reliable results.
+          StakeBonuses is an innovative online tool designed exclusively for Stake VIP members. Our advanced calculator enables you to accurately estimate your bonus by considering your wagered amount, profit or loss, and VIP status. Whether you need to <strong>calculate stake bonus</strong>, <strong>calculate stake weekly bonus</strong>, <strong>calculate stake monthly bonus</strong>, <strong>calculate stake pre monthly bonus</strong>, or <strong>calculate stake post monthly bonus</strong>, our tool delivers reliable results.
         </Typography>
         <Typography variant="body1" paragraph>
-          Our platform simplifies complex bonus calculations so you can focus on maximizing your rewards. With step‑by‑step guides, detailed insights, and a user‑friendly design, StakeBonus is your ultimate resource for unlocking the full potential of your Stake VIP bonus.
+          Our platform simplifies complex bonus calculations so you can focus on maximizing your rewards. With step‑by‑step guides, detailed insights, and a user‑friendly design, StakeBonuses is your ultimate resource for unlocking the full potential of your Stake VIP bonus.
         </Typography>
       </Paper>
 
       {/* FEATURES & BENEFITS SECTION */}
       <Paper elevation={3} sx={{ p: 4, mb: 4 }}>
         <Typography variant="h4" component="h2" gutterBottom>
-          Key Features and Benefits of StakeBonus
+          Key Features and Benefits of StakeBonuses
         </Typography>
         <Grid container spacing={3}>
           <Grid item xs={12} md={6}>
@@ -141,7 +141,7 @@ function Home() {
                 User‑Friendly and Responsive Design
               </Typography>
               <Typography variant="body2">
-                Built on Material UI, StakeBonus offers a sleek, modern interface that works seamlessly on both desktop and mobile devices.
+                Built on Material UI, StakeBonuses offers a sleek, modern interface that works seamlessly on both desktop and mobile devices.
               </Typography>
             </Paper>
           </Grid>
@@ -171,7 +171,7 @@ function Home() {
       {/* HOW IT WORKS SECTION */}
       <Paper elevation={3} sx={{ p: 4, mb: 4 }}>
         <Typography variant="h4" component="h2" gutterBottom>
-          How the StakeBonus Calculator Works
+          How the StakeBonuses Calculator Works
         </Typography>
         <Typography variant="body1" paragraph>
           Our calculator estimates your bonus based on key factors such as:
@@ -259,13 +259,13 @@ function Home() {
       {/* USER TESTIMONIALS */}
       <Paper elevation={3} sx={{ p: 4, mb: 4, backgroundColor: '#f7f7f7' }}>
         <Typography variant="h4" component="h2" gutterBottom>
-          What Our Users Say About StakeBonus
+          What Our Users Say About StakeBonuses
         </Typography>
         <Grid container spacing={3}>
           <Grid item xs={12} md={6}>
             <Paper elevation={1} sx={{ p: 3 }}>
               <Typography variant="body1" gutterBottom>
-                "StakeBonus has revolutionized my gaming strategy. I can now easily calculate my stake bonus whether it's weekly or monthly!"
+                "StakeBonuses has revolutionized my gaming strategy. I can now easily calculate my stake bonus whether it's weekly or monthly!"
               </Typography>
               <Typography variant="subtitle2" align="right">
                 – Alex P.
@@ -304,7 +304,7 @@ function Home() {
           Ready to Unlock Your Full Bonus Potential?
         </Typography>
         <Typography variant="body1" paragraph>
-          Don’t wait! Use our StakeBonus calculator now to <strong>calculate stake bonus</strong>, <strong>calculate stake weekly bonus</strong>, <strong>calculate stake monthly bonus</strong>, <strong>calculate stake pre monthly bonus</strong>, and <strong>calculate stake post monthly bonus</strong>. Maximize your rewards and take your gaming strategy to the next level!
+          Don’t wait! Use our StakeBonuses calculator now to <strong>calculate stake bonus</strong>, <strong>calculate stake weekly bonus</strong>, <strong>calculate stake monthly bonus</strong>, <strong>calculate stake pre monthly bonus</strong>, and <strong>calculate stake post monthly bonus</strong>. Maximize your rewards and take your gaming strategy to the next level!
         </Typography>
         <Box sx={{ mt: 2 }}>
           <Button variant="contained" color="inherit" size="large" component={Link} to="/weekly" sx={{ m: 1, textTransform: 'none' }}>
@@ -314,10 +314,10 @@ function Home() {
             Calculate Stake Monthly Bonus
           </Button>
           <Button variant="contained" color="inherit" size="large" component={Link} to="/pre-monthly" sx={{ m: 1, textTransform: 'none' }}>
-            Calculate Stake Pre Month Bonus
+            Calculate Stake Pre Monthly Bonus
           </Button>
           <Button variant="contained" color="inherit" size="large" component={Link} to="/post-monthly" sx={{ m: 1, textTransform: 'none' }}>
-            Calculate Stake Post Month Bonus
+            Calculate Stake Post Monthly Bonus
           </Button>
         </Box>
       </Paper>

@@ -26,7 +26,7 @@ function Header() {
             fontWeight: 'bold',
           }}
         >
-          StakeBonus
+          StakeBonuses
         </Typography>
         <Box>
           {navItems.map((item) => (

@@ -12,7 +12,7 @@ function Footer() {
         mt: 4,
       }}
     >
-      <Typography variant="body2">&copy; 2025 StakeBonus. All rights reserved.</Typography>
+      <Typography variant="body2">&copy; 2025 StakeBonuses. All rights reserved.</Typography>
     </Box>
   );
 }
